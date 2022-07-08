@@ -1,0 +1,22 @@
+class Main {
+  public static void main(String[] args) {
+    Main obj = new Main();
+    int[] inputarray={2,3,4};
+    obj.arraypairs(inputarray);
+    
+     
+  }
+  public void arraypairs(int[] array)
+  { 
+      for(int i=0; i< array.length;i++)
+        {
+          for (int j=0; j< array.length ;j++)
+            {
+              System.out.print(array[i]);
+              System.out.println(array[j]);
+              
+            }
+        }
+  }
+    
+}
